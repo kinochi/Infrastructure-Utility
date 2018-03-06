@@ -28,8 +28,8 @@ def get_files(path):
     return total
 
 def main():
-    if(len(sys.argv)>=3 and os.path.exists(sys.argv[2])):
-        if(len(sys.argv)<4): k = int(sys.argv[2])
+    if(len(sys.argv)>=2 and os.path.exists(sys.argv[1])):
+        if(len(sys.argv)>=3): k = int(sys.argv[2])
         else: k = 10
         total_size = get_files(sys.argv[1])/(MB); 
         print(str(total_size) + " MB")
