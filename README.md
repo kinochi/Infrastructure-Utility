@@ -6,6 +6,8 @@ _club.py_ clubs all the files in the specified path on the basis of file extensi
 
 _dir.py_ lists all files the with top disk usage in the specified path
 
+NOTE: _dir.py_ has some issues on windows due to permission errors and if granted enough permissions works right
+
 ### Prerequisites
 
 Need python version 3.5 .
