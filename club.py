@@ -22,13 +22,10 @@ def club(path):
                     break
 
 if __name__ == '__main__' :
-    #TODO add suitable condition to print error message
     if(len(sys.argv)<2):
         print("Error: Provide enough arguments\nUsage : club.py  [directory] ") 
     elif(sys.argv[1] in ['-l' ,'-list']):
         print('Extensions Supported :'+ str(extension)) 
-        #if(len(sys.argv)>=3 and os.path.exists(sys.argv[2])):
-        #    club(sys.argv[1]) 
     elif(os.path.exists(sys.argv[1])):
         club(sys.argv[1])
     else:
