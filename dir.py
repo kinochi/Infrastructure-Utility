@@ -41,7 +41,7 @@ def main():
         else: k = 10
         # Get all the files and also the total search space size
         total_size = get_files(sys.argv[1])/(MB); 
-        print("Total Search Space : "str(total_size) + " MB")
+        print("Total Search Space : " + str(total_size) + " MB")
         # Get all the k largest files
         klargest = sorted(files, key=lambda x : x[1], reverse=True)[:k]
         # Proper formatting for the fiiles
