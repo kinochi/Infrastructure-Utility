@@ -3,10 +3,10 @@ import sys
 MB = 1<<20
 files=[]
 def get_files(path):
-    """Returns all the files as well as total size of files in the subdirectory of specified path. If
-    is_dir() or stat() fails, print an error message to stderr
-    and assume zero size (for example, file has been deleted).
-    """
+    # Returns all the files as well as total size of files in the subdirectory of specified path. If
+    # is_dir() or stat() fails, print an error message to stderr
+    # and assume zero size (for example, file has been deleted).
+    
     total=0;
     for entry in os.scandir(path):
         try:                                             

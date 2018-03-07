@@ -3,7 +3,7 @@ extension = ['.pdf','.avi','.doc','.mp3','.mkv','.ppt','.m','.jpg','.png']
 folder = [s.strip('.').upper() for s in extension]
 
 def club(path):
-    if sys.version_info < (3,5):                        # os.scandir need python version 3.5 at least
+    if sys.version_info < (3,5):                        # os.scandir needs at least python version 3.5 
         print('Python version > 3.5 required!')
         return
 
