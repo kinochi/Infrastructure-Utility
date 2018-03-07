@@ -2,9 +2,9 @@
 
 The tools provided are cross-platform.
 
-club.py clubs all the files in the specified path on the basis of file extension and move them in separate folders .
+_club.py_ clubs all the files in the specified path on the basis of file extension and move them in separate folders .
 
-dir.py lists all files the with top disk usage in the specified path
+_dir.py_ lists all files the with top disk usage in the specified path
 
 ### Prerequisites
 
